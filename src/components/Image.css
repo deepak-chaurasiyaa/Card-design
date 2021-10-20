@@ -1,0 +1,48 @@
+.center:nth-child(1){
+    margin-left: 10%;
+    
+  }
+  #fle{
+      
+      display: flex;
+      justify-content: space-between;
+  }
+  #fle h4{
+      font-size: 20px;
+  }
+  #center{
+     display: grid;
+     grid-template-columns: repeat(3,26%);
+     gap: 5%;
+  }
+  #center img:hover{
+      cursor: pointer;
+      width: 110%;
+  }
+  .flesx{
+    display: flex;
+    justify-content: space-between;
+  }
+  #flesx :nth-child(2){
+    color: red;
+    text-decoration: line-through;
+  }
+  #flesx :nth-child(3){
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    
+    height: 60px;
+    border-radius: 10px;
+    background-color:rgb(9, 170, 9)  ;
+  }
+  .center h3{
+    width: 100%;
+  }
+  .center img{
+    width: 100%;
+    margin-top: 50px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+  }
+  
